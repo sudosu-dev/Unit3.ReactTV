@@ -1,9 +1,15 @@
 .shows {
   display: flex;
 }
+.shows ul {
+  display: flex;
+  list-style-type: none;
+}
 
 .show {
   padding: 0 1ch;
+  color: white;
+  text-decoration: none;
 }
 
 .show:not(:last-child) {
